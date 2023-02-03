@@ -1,6 +1,9 @@
 import discord
 from discord.ext import commands
 
+#REQUIRES - channel named log-channel
+
+
 #Class defining this as the events command
 class Events(commands.Cog):
     def __init__(self, client):
