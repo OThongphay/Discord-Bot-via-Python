@@ -18,7 +18,6 @@ class HelpCommand(commands.Cog):
 
         help_embed.set_author(name = "Paimon Bot")
         help_embed.add_field(name = "Clear", value = "Deletes a specified amount of messages from the chat the command was activated in", inline = False)
-        help_embed.add_field(name = "Embed", value = "Creates an Embeded Message containing info regarding the author of this bot", inline = False)
         help_embed.add_field(name = "Help", value = "Displays embedded message about useful commands", inline = False)
         help_embed.add_field(name = "Ping", value = "Display the network metric of the bot", inline = False)
         help_embed.add_field(name = "Serverinfo", value = "Display the information regarding the server the command was executed in", inline = False)
