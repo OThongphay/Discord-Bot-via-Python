@@ -18,11 +18,11 @@ class HelpCommand(commands.Cog):
 
         help_embed.set_author(name = "Paimon Bot")
         help_embed.add_field(name = "Clear", value = "Deletes a specified amount of messages from the chat the command was activated in", inline = False)
-        help_embed.add_field(name = "Embed", value = "Creates an Embeded Message containing info regarding the author of this bot", inline = False)
         help_embed.add_field(name = "Help", value = "Displays embedded message about useful commands", inline = False)
         help_embed.add_field(name = "Ping", value = "Display the network metric of the bot", inline = False)
         help_embed.add_field(name = "Setprefix", value = "Changes the prefix for the bot to execute commands", inline = False)
-        help_embed.add_field(name = "Userinfo", value = "Display the information regarding a specified user", inline = False)
+        help_embed.add_field(name = "ServerInfo", value = "Display the information regarding the server the bot is hosted on", inline = False)
+        help_embed.add_field(name = "UserInfo", value = "Display the information regarding a specified user", inline = False)
         help_embed.set_footer(text = f"Requested by <@{ctx.author}>.", icon_url = ctx.author.avatar)
 
         await ctx.send(embed = help_embed)
